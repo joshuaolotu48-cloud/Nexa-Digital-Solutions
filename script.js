@@ -1,6 +1,4 @@
-/* =========================
-   MOBILE NAVIGATION
-========================= */
+
 
 const menuButton = document.getElementById("menu-button");
 const navbar = document.getElementById("navbar");
@@ -22,7 +20,6 @@ menuButton.addEventListener("click", () => {
 });
 
 
-/* Close mobile menu when a link is clicked */
 
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -42,9 +39,7 @@ navLinks.forEach(link => {
 });
 
 
-/* =========================
-   ACTIVE NAVIGATION LINK
-========================= */
+
 
 const sections = document.querySelectorAll("section[id]");
 
@@ -80,9 +75,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================
-   COUNTER ANIMATION
-========================= */
+
 
 const counters = document.querySelectorAll(".counter");
 
@@ -135,9 +128,6 @@ window.addEventListener("scroll", startCounters);
 startCounters();
 
 
-/* =========================
-   SCROLL REVEAL
-========================= */
 
 const revealElements = document.querySelectorAll(".reveal");
 
@@ -171,9 +161,6 @@ revealElements.forEach(element => {
 });
 
 
-/* =========================
-   CONTACT FORM
-========================= */
 
 const contactForm = document.getElementById("contact-form");
 const formMessage = document.getElementById("form-message");
